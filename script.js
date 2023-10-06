@@ -110,9 +110,4 @@ function closeModal() {
 
 const modalOkBtn = document.getElementById('modalOkBtn');
 modalOkBtn.addEventListener('click', closeModal);
- // Teste de escrita
-localStorage.setItem('teste', 'Isso é um teste');
 
-// Teste de leitura
-const teste = localStorage.getItem('teste');
-console.log(teste);  // Deve imprimir "Isso é um teste" no console
