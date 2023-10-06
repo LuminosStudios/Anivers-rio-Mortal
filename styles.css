@@ -73,7 +73,7 @@ h1 {
 #modalOkBtn {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #3498db;
+  background-color: red;
   color: white;
   border: none;
   border-radius: 5px;
@@ -82,7 +82,7 @@ h1 {
 }
 
 #modalOkBtn:hover {
-  background-color: #2980b9;
+  background-color: red;
 }
 
   
