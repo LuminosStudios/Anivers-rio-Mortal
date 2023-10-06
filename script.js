@@ -1,12 +1,12 @@
 // Inicializa a quantidade de vagas a partir do localStorage ou usa 3 como padrão
 let vagasLaura = parseInt(localStorage.getItem('vagasLaura')) || 3;
 let vagasMark = parseInt(localStorage.getItem('vagasMark')) || 3;
-let vagasSophie = parseInt(localStorage.getItem('vagasSophie')) || 3;
+let vagasSophie = parseInt(localStorage.getItem('vagasSophie')) || 2;
 let vagasDylan = parseInt(localStorage.getItem('vagasDylan')) || 3;
-let vagasEmma = parseInt(localStorage.getItem('vagasEmma')) || 3;
-let vagasJulia = parseInt(localStorage.getItem('vagasJulia')) || 3;
+let vagasEmma = parseInt(localStorage.getItem('vagasEmma')) || 2;
+let vagasJulia = parseInt(localStorage.getItem('vagasJulia')) || 2;
 let vagasBrian = parseInt(localStorage.getItem('vagasBrian')) || 3;
-let vagasOlivia = parseInt(localStorage.getItem('vagasOlivia')) || 3;
+let vagasOlivia = parseInt(localStorage.getItem('vagasOlivia')) || 2;
 
 function atualizarVagas(personagem, vagas) {
   localStorage.setItem(`vagas${personagem}`, vagas.toString());
