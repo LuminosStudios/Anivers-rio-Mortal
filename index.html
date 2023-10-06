@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audição - Personagens</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Selecione um personagem para a audição:</h1>
+
+  <div class="character" id="laura">
+    <h2>Laura/Mario</h2>
+    <button type="button" onclick="showModal('Laura/Mario')">Inscrever</button>
+    <span id="lauraVagas">Vagas: 3</span>
+  </div>
+
+  <div class="character" id="mark">
+    <h2>Mark/Alexa</h2>
+    <button type="button" onclick="showModal('Mark/Alexa')">Inscrever</button>
+    <span id="markVagas">Vagas: 3</span>
+  </div>
+
+  <div class="character" id="sophie">
+    <h2>Sophie/Julio</h2>
+    <button type="button" onclick="showModal('Sophie/Julio')">Inscrever</button>
+    <span id="sophieVagas">Vagas: 3</span>
+  </div>
+
+  <div class="character" id="dylan">
+    <h2>Dylan</h2>
+    <button type="button" onclick="showModal('Dylan')">Inscrever</button>
+    <span id="dylanVagas">Vagas: 3</span>
+  </div>
+
+  <div class="character" id="emma">
+    <h2>Emma/Apolo</h2>
+    <button type="button" onclick="showModal('Emma/Apolo')">Inscrever</button>
+    <span id="emmaVagas">Vagas: 3</span>
+  </div>
+
+  <div class="character" id="julia">
+    <h2>Julia/Jack</h2>
+    <button type="button" onclick="showModal('Julia/Jack')">Inscrever</button>
+    <span id="juliaVagas">Vagas: 3</span>
+  </div>
+
+  <div class="character" id="brian">
+    <h2>Brian/Mariana</h2>
+    <button type="button" onclick="showModal('Brian/Mariana')">Inscrever</button>
+    <span id="brianVagas">Vagas: 3</span>
+  </div>
+
+  <div class="character" id="olivia">
+    <h2>Olivia/Kenji</h2>
+    <button type="button" onclick="showModal('Olivia/Kenji')">Inscrever</button>
+    <span id="oliviaVagas">Vagas: 3</span>
+  </div>
+
+  <!-- Adicione os outros personagens aqui -->
+
+  <div id="myModal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <p id="modalText"></p>
+      <button id="modalOkBtn">OK</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
